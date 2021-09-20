@@ -1,3 +1,7 @@
+import random
+
+koloda = [6,7,8,9,10,2,3,4,11] * 4
+random.shuffle(koloda)
 print('Поиграем в очко?')
 count = 0
 
